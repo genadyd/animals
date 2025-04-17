@@ -25,7 +25,7 @@ class AnimalsList {
         })
         listContainer.innerHTML = animalsListHtml
     }
-
+// Remove one animal from store
     static removeAnimal( state ) {
         let animals = state.stateGetter()['animals']
         const listArea = document.getElementById('animals_list_area')
